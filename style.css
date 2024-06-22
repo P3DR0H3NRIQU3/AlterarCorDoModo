@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/op.jpg);
+    display: flex;
+
+    justify-content: center;
+    
+}
+.titulo{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.container{
+    gap: 30px;
+    padding: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    
+
+    border-radius: 30px;
+
+    margin-top: 50px;
+    width: 500px;
+    height: 400px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+#alternarModo{
+    height: 70px;
+    width:  200px;
+    border: none;
+    background: linear-gradient(to right, rgb(137, 43, 226), rgb(63, 0, 236));
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
